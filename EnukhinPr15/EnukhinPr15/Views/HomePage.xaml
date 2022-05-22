@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EnukhinPr15.Views.HomePage"
+             Title="Главная">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Введите загловок" x:Name="entryTitle"/>
+            <Label x:Name="lableResult" FontSize="20" Margin="5" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button x:Name="buttonOnOff" Clicked="ButtonOnOff_Clicked" Text="Включить таймер" Margin="5"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
